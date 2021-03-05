@@ -14,7 +14,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: rgb(10, 39, 92);
+    background-color: #182d55;
 }
 
 header h1 {
@@ -25,12 +25,17 @@ header h1 {
 
 }
 
+header div {
+    padding: auto;
+    background-color:white;
+}
+
 header a {
     text-decoration: none;
-    color: orangered;
-    
+    color: #f26722;
     
 }
+
 
 header nav {
     margin: 10px;
@@ -65,10 +70,35 @@ header nav ul a {
     flex-flow: row-reverse;
     padding: 30px;
     font-size: 2vw;
-    color: orangered;
+    color: #f26722;
    }
 
 .hometown span {
     margin-top: auto;
     padding: 300px 0;
+}
+
+.about-me {
+    display: flex;
+    width: 100%;
+}
+
+.about-me h2 {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    color: #f26722;
+    padding: 45px 0;
+    background-color: #182d55;
+    border-right: 3px solid  #f26722 ;
+    justify-content: center;
+}
+
+.about-me p {
+    padding: 40px;
+    display: flex;
+    background-color: #182d55;
+    color: #f26722;
+    height: 100%;
+    justify-content: left;
 }
